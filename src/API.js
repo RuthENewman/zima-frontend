@@ -12,8 +12,8 @@ class API {
     return fetch('https://zima-backend-api.herokuapp.com/api/v1/signin', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify(user)
-    }).then(resp => resp.json())
+      body: JSON.stringify({user})
+    }).then(resp => resp.json());
 
   }
   static validate() {

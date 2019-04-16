@@ -7,7 +7,6 @@ class Navbar extends Component {
 
   render() {
     const { username } = this.props
-    const { signout } = this.props
     return (
       <header className="main_header">
         <div className="header_container">

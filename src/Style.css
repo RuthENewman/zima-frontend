@@ -620,7 +620,7 @@ margin: 0.1em;
 
 .signin_form {
   position: relative;
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 2em;
   padding: 2em;
@@ -657,7 +657,7 @@ margin: 0.1em;
 }
 
 #create_account_form {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 2em;
