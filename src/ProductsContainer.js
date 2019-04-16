@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import ProductsList from './ProductsList';
-import Cart from './Cart';
-import Navbar from './Navbar';
 
 class ProductsContainer extends Component {
 

@@ -17,9 +17,8 @@ class OrderItem extends Component {
   }
 
   render() {
-    const { amendDate } = this;
     return (
-      <div className="order-item-details">    
+      <div className="order-item-details">
         <div className="category_eng order-item-info">
           <p>{this.props.product.name}</p>
           <p>£{this.props.product.price}</p>
