@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Cart from './Cart';
 import { Elements, StripeProvider } from 'react-stripe-elements';
 import CheckoutForm from './CheckoutForm';
-import Navbar from './Navbar';
 const orderUrl = "http://localhost:3000/api/v1/orders";
 
 class CompleteOrder extends Component {
