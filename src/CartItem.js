@@ -10,7 +10,7 @@ class CartItem extends Component {
 
   }
 
-  incrementQuantity = (event) => {
+  incrementQuantity = event => {
     this.setState({
       [event.target.name]: event.target.value
     })
@@ -25,10 +25,9 @@ class CartItem extends Component {
   render() {
     return (
       <div key={this.props.product.id}>
-        <h3 className="category_eng">{this.props.product.name} <span className="price">£{this.props.product.price}</span>
+        <h3 className="category_eng">{this.props.product.name} <span className="price">£{parseFloat(this.props.product.price * this.state.quantity).toFixed(2)}</span>
         <br/>
-        <label id="quantityLabel" className="category_eng">Quantity:</label>
-        <input id="quantityInput" type="number" name="quantity" min="1" value={this.state.quantity} onChange={() => this.incrementQuantity(this.props.product)}></input>
+      
         <button className="category_eng remove_button" onClick={(event) => this.props.removeFromCart(this.props.product)}>Remove from cart</button></h3>
       </div>
     )

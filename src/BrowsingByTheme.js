@@ -11,7 +11,7 @@ class BrowsingByTheme extends Component {
       signout={this.props.signout}
       username={this.props.username}
       />
-      <h2 className="category_eng">Browse by theme</h2>
+      <h2 className="category_eng" id="theme-header">Browse by theme</h2>
         <div id="icons_container">
             <div className="theme_icon">
               <img

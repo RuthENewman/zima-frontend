@@ -82,16 +82,18 @@ class Main extends Component {
         />} />
       <Route exact path="/myaccount"
       component={routerProps => <OrderHistory username={this.props.username} signout={this.props.signout} {...routerProps} />} />
-      <Route exact path="/createaccount" component={() => <CreateAccount
+      <Route exact path="/createaccount" component={(routerProps) => <CreateAccount
         username={this.props.username}
         signout={this.props.signout}
+        {...routerProps}
         />}/>
-      <Route exact path="/completeorder" component={() =>
+      <Route exact path="/completeorder" component={(routerProps) =>
         <CompleteOrder
         productsInCart={this.props.productsInCart}
         removeFromCart={this.props.removeFromCart}
         username={this.props.username}
         signout={this.props.signout}
+        {...routerProps}
         />} />
     </Fragment>
     )

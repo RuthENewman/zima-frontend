@@ -60,6 +60,11 @@ a {
   position: relative;
   width: 96%;
   margin: 0 auto;
+  margin-top: 3em;
+}
+
+#theme-header {
+  margin-top: 2em;
 }
 
 .product-list {
@@ -238,6 +243,7 @@ h3#shopping-cart-header {
 .main_nav {
   display: inline;
   margin-bottom: 1em;
+  margin-left: 1em;
 }
 
 .header_container {
@@ -447,7 +453,7 @@ h3#shopping-cart-header {
   padding: 5px 20px 15px 20px;
   border-radius: 3px;
   margin: 0 auto;
-  margin-top: 2em;
+  margin-top: 4em;
   margin-bottom: 2em;
   width: 50%;
 }
@@ -575,7 +581,7 @@ margin: 0.1em;
   position: relative;
   width: 40%;
   margin: 0 auto;
-  margin-top: 1.5em;
+  margin-top: 3em;
   margin-bottom: 1.5em;
   padding: 0.4em;
   position: relative;
@@ -679,6 +685,11 @@ margin: 0.1em;
   background-color: #00FF7F;
 }
 
+
+#create_account_header, #login-header {
+  margin-top: 3em;
+}
+
 #order-history {
   display: flex;
   flex-direction: column;
@@ -688,7 +699,7 @@ margin: 0.1em;
   margin: 0 auto;
   position: relative;
   border-style: dotted;
-  margin-top: 2em;
+  margin-top: 4em;
   margin-bottom: 2em;
   padding: 1.5em;
   background-color: white;

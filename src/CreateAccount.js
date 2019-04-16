@@ -3,8 +3,8 @@ import API from './API';
 import Navbar from './Navbar';
 
 class CreateAccount extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
       first_name: '',
@@ -37,7 +37,7 @@ class CreateAccount extends Component {
     return (
       <div id="create_account">
         <Navbar username={this.props.username} signout={this.props.signout}/>
-        <h2 className="category_eng">Create a ZIMA account</h2>
+        <h2 className="category_eng" id="create_account_header">Create a ZIMA account</h2>
         <form id="create_account_form" onSubmit={this.handleSubmit}>
           <p><label className="category_eng">First name</label></p>
           <input

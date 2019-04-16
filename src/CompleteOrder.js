@@ -32,6 +32,7 @@ class CompleteOrder extends Component {
      },
      body: JSON.stringify({ products: this.props.productsInCart })
    }).then(alert('Your order has been processed!'))
+    .then(() => this.props.history.push('/myaccount'))
  }
 
   render() {

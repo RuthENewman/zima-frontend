@@ -9,10 +9,17 @@ class OrderItem extends Component {
     }
   }
 
+  amendDate = (createdDate) => {
+    let year = createdDate.slice(0, 4)
+    let month = createdDate.slice(5, 7)
+    let day = createdDate.slice(8, 10)
+    return `${day}/${month}/${year}`;
+  }
+
   render() {
+    const { amendDate } = this;
     return (
-      <div className="order-item-details">
-        <h3>Order id: {this.props.order.id}<span> Date ordered:</span></h3>
+      <div className="order-item-details">    
         <div className="category_eng order-item-info">
           <p>{this.props.product.name}</p>
           <p>£{this.props.product.price}</p>
