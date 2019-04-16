@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ProductItem from './ProductItem';
 import Navbar from './Navbar';
 
-const baseURL = "http://localhost:3000/api/v1/categories";
+const baseURL = "https://ancient-retreat-80047.herokuapp.com/api/v1/categories";
 
 class ProductsByTheme extends Component {
   constructor() {

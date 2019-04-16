@@ -8,7 +8,7 @@ import Main from './Main';
 import API from './API';
 
 
-const productsURL = "http://localhost:3000/api/v1/products";
+const productsURL = "https://ancient-retreat-80047.herokuapp.com//products";
 
 
 class App extends Component {

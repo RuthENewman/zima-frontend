@@ -1,7 +1,7 @@
 class API {
 
   static create(user) {
-  return fetch('http://localhost:3000/api/v1/users', {
+  return fetch('https://ancient-retreat-80047.herokuapp.com/api/v1/users', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({user: user})
@@ -9,7 +9,7 @@ class API {
   }
 
   static signin (user) {
-    return fetch('http://localhost:3000/api/v1/signin', {
+    return fetch('https://ancient-retreat-80047.herokuapp.com/api/v1/signin', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(user)
@@ -17,11 +17,11 @@ class API {
 
   }
   static validate() {
-    return this.get('http://localhost:3000/api/v1/validate')
+    return this.get('https://ancient-retreat-80047.herokuapp.com/api/v1/validate')
   }
 
   static getOrderHistory() {
-    return this.get('http://localhost:3000/api/v1/myaccount')
+    return this.get('https://ancient-retreat-80047.herokuapp.com/api/v1/myaccount')
   }
 
   static get (url) {
