@@ -8,7 +8,7 @@ import Main from './Main';
 import API from './API';
 
 
-const productsURL = "https://zima-backend-api.herokuapp.com/products";
+const productsURL = "https://zima-backend-api.herokuapp.com/api/v1/products";
 
 
 class App extends Component {
