@@ -7,7 +7,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  background: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/winter-scenes-moscow-river-russia.jpg");
+  /* background: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/winter-scenes-moscow-river-russia.jpg"); */
   background-size: cover;
 }
 
@@ -28,6 +28,11 @@ h2 {
   border-style: dotted;
   padding: 0.5em;
   border-radius: 4%;
+}
+
+.product-item-name {
+  font-size: 14px;
+  text-align: left;
 }
 
 h3 {
@@ -81,12 +86,14 @@ a {
   padding: 1em;
   border-style: solid;
   border-width: 0.1em;
-  width: 300px;
+  width: 220px;
   position: relative;
   border-radius: 5%;
   margin: 0 auto;
   margin-bottom: 1em;
-  margin-top: 2em;;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
   background-color: white;
 }
 
@@ -97,6 +104,10 @@ a {
 
 .product-item h3 {
   text-align: center;
+}
+
+.product-text h3 {
+  text-align: left;
 }
 
 .product-item button {
@@ -342,7 +353,7 @@ h3#shopping-cart-header {
 
 .product-text {
   color: white;
-  font-size: 1em;
+  font-size: 14px;
   position: relative;
   width: 90%;
   top: 45%;
@@ -351,17 +362,19 @@ h3#shopping-cart-header {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
+
+
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
   color: white;
   font-weight: bold;
   font-size: 5em;
   border: 10px solid #f1f1f1;
-  position: fixed; /* Stay fixed */
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -373,10 +386,7 @@ h3#shopping-cart-header {
 }
 
 .bg-image {
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -386,20 +396,20 @@ h3#shopping-cart-header {
    height: 1000px;
 }
 
-/* Images used */
+
 #img1 {
   background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest.jpg");
   height: 100%;
 }
 
 #img2 {
-  background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2.jpg");
+  display: none;
 }
 #img3 {
-  background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1.jpg");
+  display: none;
 }
 #img4 {
-  background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin.jpg");
+  display: none;
 }
 
 .category_eng {

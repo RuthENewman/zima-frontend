@@ -15,7 +15,7 @@ class ProductItem extends Component {
     return (
       <>
         <div className="product-item">
-          <h3>{product.name}</h3>
+          <h3 className="product-item-name">{product.name}</h3>
           <img src={product.image_url} alt={product.name} />
           <h3>£{product.price}</h3>
           <div className="product_overlay">

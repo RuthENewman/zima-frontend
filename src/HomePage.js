@@ -11,6 +11,16 @@ class HomePage extends Component {
     }
   }
 
+  addExtraImages = () => {
+    console.log('test if called');
+    const bgImage2 = document.getElementById('img2');
+    const bgImage3 = document.getElementById('img3');
+    const bgImage4 = document.getElementById('img4');
+    bgImage2.style.backgroundImage = "url('https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2.jpg')";
+    bgImage3.style.backgroundImage = "url('https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1.jpg')";
+    bgImage4.style.backgroundImage = "url('https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin.jpg')";
+  }
+
   render() {
     return(
 
@@ -25,7 +35,7 @@ class HomePage extends Component {
             />
             : null
           }
-        <div className="bg-image" id="img1">
+        <div className="bg-image" id="img1" onScroll={this.addExtraImages}>
         </div>
         <div className="bg-image" id="img2">
         </div>
