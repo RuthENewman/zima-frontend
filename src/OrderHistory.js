@@ -30,7 +30,7 @@ class OrderHistory extends Component {
 
   render() {
     return(
-    <div>
+    <div className="orderHistoryPage">
       <Navbar username={this.props.username} signout={this.props.signout}/>
       <div id="order-history" className="user-list">
           <h3 className="category_eng">Hi {this.props.username}!</h3>

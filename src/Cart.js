@@ -64,7 +64,7 @@ class Cart extends Component {
 
   render() {
     return (
-    <div>
+    <div className="shoppingCartProducts">
       <Navbar username={this.props.username} signout={this.props.signout}/>
       <div className="main_content">
         <div className="shopping-cart checkout_container">
