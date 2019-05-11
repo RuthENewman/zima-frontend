@@ -7,7 +7,7 @@ class About extends Component {
 
   render() {
     return (
-    <div>
+    <div className="aboutPage">
       <Navbar signout={this.props.signout} username={this.props.username}/>
       <div className="main_content">
         <h1 className="category_eng" id="about_header">
