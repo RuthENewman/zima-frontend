@@ -283,8 +283,8 @@ h3#shopping-cart-header {
 
 .image {
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   margin: 2%;
 }
 
@@ -663,10 +663,9 @@ span.price {
 }
 
 #login_button {
-  width: 50%;
+  width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-left: 30%;
   background-color: #00FF7F;
 }
 
