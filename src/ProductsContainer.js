@@ -6,7 +6,6 @@ class ProductsContainer extends Component {
   render() {
     return(
       <div className="product-container">
-        <h2 id="all-products-heading">All products</h2>
         <ProductsList
           shuffle={this.props.shuffle}
           products={this.props.products}
