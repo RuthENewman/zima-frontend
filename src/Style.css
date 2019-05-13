@@ -582,15 +582,20 @@ span.price {
 }
 
 #icons_container {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-margin: 0 auto;
-align-content: center;
-justify-content: center;
-justify-items: left;
-padding: 0.5em;
-margin: 0.1em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center;
+  justify-items: left;
+  padding: 0.5em;
+  margin: 0.1em;
+}
+
+.aboutPage {
+  background-image: url('https://s3.eu-west-2.amazonaws.com/zimaproducts/russianwintersnow.jpg');
+  background-size: cover;
 }
 
 #about_header {
