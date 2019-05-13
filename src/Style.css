@@ -63,19 +63,17 @@ a {
   color: black;
   font-family: 'Roboto', sans-serif;
   margin-top: 1em;
-  margin-bottom: 0;
+  margin-bottom: 1em;
 }
 
 .product-container {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  margin-top: 3em;
   background-image: url(https://s3.eu-west-2.amazonaws.com/zimaproducts/russianwintersnow.jpg);
   height: 100%;
   background-repeat: space;
   padding-top: 1em;
-  border-radius: 10px;
 }
 
 #theme-header {
@@ -92,22 +90,26 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   width: 98%;
   margin: 0 auto;
   align-content: center;
-  margin-bottom: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .product-item {
   padding: 1em;
-  border-style: solid;
+  border-style: groove;
   border-width: 0.1em;
   width: 220px;
   position: relative;
   border-radius: 5%;
   margin: 0 auto;
-  margin-bottom: 1em;
-  margin-top: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   background-color: white;
 }
 
@@ -124,6 +126,7 @@ a {
 .product-text h3 {
   text-align: left;
   margin: 0 auto;
+  margin-bottom: 1em;
 }
 
 .product-item button {
@@ -338,7 +341,6 @@ h3#shopping-cart-header {
   opacity: 0;
   transition: .5s ease;
   background-color: #000000;
-  border-radius: 4%;
   margin: 0;
 }
 
