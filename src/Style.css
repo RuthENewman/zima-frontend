@@ -174,10 +174,6 @@ a {
   border-radius: 5%;
 }
 
-.name {
-
-}
-
 h3#shopping-cart-total {
   color: green;
   font-weight: bold;
@@ -274,10 +270,9 @@ h3#shopping-cart-header {
 }
 
 .theme_icon {
-  padding: 0.2em;
-  width: 250px;
+  width: 180px;
   position: relative;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 .theme_icon img {
@@ -596,6 +591,7 @@ span.price {
 .aboutPage {
   background-image: url('https://s3.eu-west-2.amazonaws.com/zimaproducts/russianwintersnow.jpg');
   background-size: cover;
+  height: 100vh;
 }
 
 #about_header {
@@ -652,6 +648,11 @@ span.price {
   background-color: white;
 }
 
+#create_account_header {
+  margin-top: 0.5em;
+  font-size: 20px;
+}
+
 #emailInput, #passwordInput {
   margin: 1em;
   margin-bottom: 2em;
@@ -680,9 +681,9 @@ span.price {
 #create_account_form {
   width: 70%;
   margin: 0 auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
   border-style: groove;
   text-align: center;
   background-color: white;
@@ -703,11 +704,6 @@ span.price {
   padding: 0.8em;
   border-radius: 5%;
   background-color: #00FF7F;
-}
-
-
-#create_account_header, #login-header {
-  margin-top: 3em;
 }
 
 #order-history {
