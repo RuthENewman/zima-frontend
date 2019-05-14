@@ -653,7 +653,7 @@ span.price {
 }
 
 #create_account_header {
-  margin-top: 0.5em;
+  margin-top: 2em;
   font-size: 20px;
   width: 40%;
 }
@@ -877,6 +877,12 @@ span.price {
   #create_account_header, #login-header, #theme-header {
     font-size: 16px;
     width: 70%;
+  }
+  #create_account_header {
+    margin-top: 0.5em;
+  }
+  .product-text h3 {
+    font-size: 10px;
   }
   label, #email-label, #password-label {
     font-size: 14px;
