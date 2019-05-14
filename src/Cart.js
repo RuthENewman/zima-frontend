@@ -68,7 +68,7 @@ class Cart extends Component {
       <Navbar username={this.props.username} signout={this.props.signout}/>
       <div className="main_content">
         <div className="shopping-cart checkout_container">
-              <h3 id="#shopping-cart-header">My Cart
+              <h3 id="shopping-cart-header">My Cart
               <span className="price">
               {
               this.state.cartSize !== 0
@@ -84,7 +84,7 @@ class Cart extends Component {
             : <h3 className="category_eng">You have no items in your cart!</h3>
           }
           <hr />
-          <h3 id="#shopping-cart-total" className="price">Total: <span className="price">£{this.totalPrice()}</span></h3>
+          <h3 id="shopping-cart-total" className="price">Total: <span className="price">£{this.totalPrice()}</span></h3>
           { this.moveToCheckout() }
         </div>
       </div>

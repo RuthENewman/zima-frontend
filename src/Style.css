@@ -79,6 +79,10 @@ a {
   height: 100vh;
 }
 
+.theme {
+  overflow-x: hidden;
+}
+
 .product-list {
   display: flex;
   flex-direction: row;
@@ -283,8 +287,8 @@ h3#shopping-cart-header {
 
 .image {
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   margin: 2%;
 }
 
@@ -638,7 +642,7 @@ span.price {
 
 .signin_form {
   position: relative;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 2em;
   padding: 2em;
@@ -651,6 +655,7 @@ span.price {
 #create_account_header {
   margin-top: 0.5em;
   font-size: 20px;
+  width: 40%;
 }
 
 #emailInput, #passwordInput {
@@ -678,7 +683,7 @@ span.price {
 }
 
 #create_account_form {
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -853,12 +858,14 @@ span.price {
 }
  @media only screen and (max-device-width: 480px) {
   .main_nav a {
-    font-size: 12px;
-    padding: 0.2em;
+    font-size: 14px;
+    padding: 0px 5px;
     display: inline-block;
   }
   .name {
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 0;
   }
 
   #very_large_header {
@@ -881,7 +888,7 @@ span.price {
   }
 
   .sidenav {
-    padding-right: 4em;
+    padding-right: 5em;
   }
   #create_account_btn {
     font-size: 12px;
@@ -931,12 +938,20 @@ span.price {
     width: 80%;
   }
 
-  #shopping_cart_header {
+  #shopping-cart-header {
     font-size: 14px;
   }
 
   h3.category_eng, #shopping-cart-total, .cart_button {
     font-size: 14px;
+  }
+
+  #create_account_form {
+    width: 70%;
+  }
+
+  .signin_form {
+    width: 70%;
   }
 
 }
