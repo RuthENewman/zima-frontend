@@ -283,8 +283,8 @@ h3#shopping-cart-header {
 
 .image {
   display: block;
-  width: 180px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   margin: 2%;
 }
 
@@ -849,12 +849,94 @@ span.price {
    margin-bottom: 0;
    margin-top: 1.5em;
  }
- @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 
-  .image, .overlay_type_1, .overlay_type_2, .product_overlay {
-    margin: 5%;
-  }
 }
+ @media screen and (min-width: 480px) {
+  .main_nav a {
+    font-size: 12px;
+    padding: 0.2em;
+    display: inline-block;
+  }
+  .name {
+    font-size: 25px;
+  }
+
+  #very_large_header {
+    width: 70%;
+    font-size: 22px;
+    margin-top: 100px;
+  }
+
+  #create_account_header, #login-header, #theme-header {
+    font-size: 16px;
+    width: 70%;
+  }
+  label, #email-label, #password-label {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .bg-text {
+    width: 160px;
+    font-size: 30px;
+  }
+
+  .sidenav {
+    padding-right: 4em;
+  }
+  #create_account_btn {
+    font-size: 12px;
+  }
+  #about_header {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
+    font-size: 20px;
+  }
+  #about_summary {
+    width: 80%;
+    padding: 1em;
+    font-size: 14px;
+  }
+
+  #theme-header {
+    margin-top: 1em;
+    font-size: 16px;
+  }
+  .theme_icon {
+    width: 80px;
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .product-item {
+    width: 120px;
+    padding: 0.5em;
+  }
+  .product-item img {
+    width: 90%;
+    margin: 5% 5%;
+  }
+  .product-item h3 {
+    font-size: 12px;
+  }
+  .main_content {
+    min-height: 0;
+  }
+
+  .checkout_container {
+    width: 80%;
+  }
+
+  #shopping_cart_header {
+    font-size: 14px;
+  }
+
+  h3.category_eng, #shopping-cart-total, .cart_button {
+    font-size: 14px;
+  }
+
 }
