@@ -65,7 +65,7 @@ a {
   margin: 0 auto;
   background-image: url('https://s3.eu-west-2.amazonaws.com/zimaproducts/russianwintersnow.jpg');
   height: 100%;
-  background-repeat: space;
+  background-repeat: repeat;
   margin-top: -1em;
 }
 
@@ -91,8 +91,7 @@ a {
   width: 98%;
   margin: 0 auto;
   align-content: center;
-  margin-top: 3em;
-  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .product-item {
@@ -408,7 +407,7 @@ h3#shopping-cart-header {
 
 
 #img1 {
-  background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest.jpg");
+  background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest1280.jpg");
   height: 100%;
 }
 
@@ -957,6 +956,7 @@ span.price {
     text-align: left;
     margin: 0 auto;
     margin-bottom: 0;
+    font-weight: normal;
     }
     .product-item button {
         font-size: 10px;
