@@ -851,7 +851,7 @@ span.price {
  }
 
 }
- @media screen only and (max-width: 480px) {
+ @media only screen and (max-device-width: 480px) {
   .main_nav a {
     font-size: 12px;
     padding: 0.2em;
