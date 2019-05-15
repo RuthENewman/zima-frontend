@@ -15,6 +15,7 @@ body {
 
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -398,18 +399,17 @@ h3#shopping-cart-header {
   /* height: 100%;
   background-position: center;
   background-repeat: no-repeat; */
-  background-size: cover;
   width: 100%;
   padding-bottom: 75%;
   position: relative;
-  background: #fff;
+  background-size: cover;
 }
 
 .bg-image > img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
@@ -421,6 +421,7 @@ h3#shopping-cart-header {
 #img1 {
   background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest1280.jpg");
   height: 100vh;
+  width: 100vw;
   background-size: cover;
 }
 
