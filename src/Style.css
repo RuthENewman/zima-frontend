@@ -420,7 +420,7 @@ h3#shopping-cart-header {
 
 #img1 {
   background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest1280.jpg");
-  height: 100%;
+  height: 100vh;
 }
 
 #img2 {
