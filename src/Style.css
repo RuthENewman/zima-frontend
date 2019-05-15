@@ -422,7 +422,8 @@ h3#shopping-cart-header {
 }
 
 .homeImage {
-  
+  height: 100%;
+  width: 100%;
 }
 
 .category_eng {
