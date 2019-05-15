@@ -29,8 +29,6 @@ class HomePage extends Component {
         <div className="bg-image" id="img1">
         </div>
         <LazyLoad
-          width={100vw}
-          height={100vh}
           debounce={false}
           offsetVertical={300}
           >
@@ -39,8 +37,6 @@ class HomePage extends Component {
           </div>
         </LazyLoad>
         <LazyLoad
-          width={100vw}
-          height={100vh}
           debounce={false}
           offsetVertical={300}
           >
@@ -49,8 +45,6 @@ class HomePage extends Component {
           </div>
         </LazyLoad>
         <LazyLoad
-          width={100vw}
-          height={100vh}
           debounce={false}
           offsetVertical={300}
           >
