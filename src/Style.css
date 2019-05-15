@@ -413,31 +413,16 @@ h3#shopping-cart-header {
 
 #img2 {
   /* background-image: url('https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2.jpg'); */
-  width: 100%;
-  padding-bottom: 75%;
-  position: relative;
-  background: #fff;
 }
 #img3 {
   /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1.jpg"); */
-  width: 100%;
-  padding-bottom: 75%;
-  position: relative;
-  background: #fff;
 }
 #img4 {
   /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin.jpg"); */
-  width: 100%;
-  padding-bottom: 75%;
-  position: relative;
-  background: #fff;
 }
+
 .homeImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
+  
 }
 
 .category_eng {
