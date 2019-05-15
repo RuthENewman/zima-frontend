@@ -422,8 +422,10 @@ h3#shopping-cart-header {
 }
 
 .homeImage {
-  height: 100%;
+  height: 101%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .category_eng {
