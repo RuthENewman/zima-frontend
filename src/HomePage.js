@@ -33,7 +33,11 @@ class HomePage extends Component {
           offsetVertical={300}
           >
           <div className="bg-image" id="img2">
-            <img src="https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2-800.jpg" className="homeImage"/>
+            <img
+            src="https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2-800.jpg"
+            className="homeImage"
+            alt="Moscow Architecture background image"
+            />
           </div>
         </LazyLoad>
         <LazyLoad
@@ -41,7 +45,11 @@ class HomePage extends Component {
           offsetVertical={300}
           >
           <div className="bg-image" id="img3">
-            <img src="https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1-800.jpg" className="homeImage" />
+            <img
+            src="https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1-800.jpg"
+            className="homeImage"
+            alt="Moscow architecture background image"
+             />
           </div>
         </LazyLoad>
         <LazyLoad
@@ -49,7 +57,10 @@ class HomePage extends Component {
           offsetVertical={300}
           >
         <div className="bg-image" id="img4">
-          <img src="https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin-800.jpg" className="homeImage"/>
+          <img src="https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin-800.jpg"
+          className="homeImage"
+          alt="Kremlin background image"
+          />
         </div>
         </LazyLoad>
         <div className="bg-text">
