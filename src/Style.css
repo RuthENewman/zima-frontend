@@ -427,13 +427,13 @@ h3#shopping-cart-header {
 
 #img2 {
   background-size: cover;
-  /* background-image: url('https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2.jpg'); */
+
 }
 #img3 {
-  /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1.jpg"); */
+
 }
 #img4 {
-  /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin.jpg"); */
+
 }
 
 .homeImage {
@@ -1004,25 +1004,21 @@ span.price {
  }
 
  #img1 {
-   /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest800.jpg"); */
-   /* height: 100vh; */
    background-size: cover;
  }
 
  #img2 {
-   /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture2-800.jpg"); */
-    /* height: 100vh; */
     background-size: cover;
  }
 
  #img3 {
-   /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/architecture1-800.jpg"); */
-    /* height: 100vh; */
+   background-size: cover;
+}
  }
 
  #img4 {
-   /* background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/kremlin-800.jpg"); */
-    /* height: 100vh; */
+   background-size: cover;
+}
  }
 
 }
