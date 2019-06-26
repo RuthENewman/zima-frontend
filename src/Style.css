@@ -419,7 +419,7 @@ h3#shopping-cart-header {
 
 
 #img1 {
-  background-image: url("https://s3.eu-west-2.amazonaws.com/zimaproducts/categoryicons/forest800.jpg");
+  background-image: url("../public/forest800.jpg");
   height: 100vh;
   width: 100vw;
   background-size: cover;
