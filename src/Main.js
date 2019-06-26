@@ -49,7 +49,7 @@ class Main extends Component {
         signout={this.props.signout}
         />} />
       <Route exact path="/allbytheme"
-        onUpdate={() => window.scrollTo(0, 0)
+        onUpdate={() => window.scrollTo(0, 0)}
         component={() => <BrowsingByTheme
         selectCategory={this.props.selectCategory}
         selectedCategory={this.props.selectedCategory}
