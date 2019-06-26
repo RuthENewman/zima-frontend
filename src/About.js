@@ -9,7 +9,6 @@ class About extends Component {
     return (
     <div className="aboutPage">
       <Navbar signout={this.props.signout} username={this.props.username}/>
-      <div className="main_content">
         <h1 className="category_eng" id="about_header">
           About ZIMA
         </h1>
@@ -30,7 +29,6 @@ class About extends Component {
             Browse <Link to="/allproducts">the full collection</Link>, or <Link to="/allbytheme">by theme</Link>.
           </p>
         </div>
-      </div>
     </div>
   )
   }

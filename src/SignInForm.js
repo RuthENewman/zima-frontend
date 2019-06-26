@@ -37,7 +37,7 @@ class SignInForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="signInFormPage">
         <Navbar username={this.props.username} signout={this.props.signout}/>
         <h2 className="category_eng" id="login-header">Log in to your account</h2>
         <form className="signin_form">
