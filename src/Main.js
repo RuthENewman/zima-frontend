@@ -39,7 +39,7 @@ class Main extends Component {
           signout={this.props.signout}
           signin={this.props.signin} {...routerProps}/>}/>
       <Route exact path="/allproducts" component={() => <BrowseAll
-        onUpdate={() => window.scrollTo(0, 0)
+        onUpdate={() => window.scrollTo(0, 0)}
         products={this.props.products}
         productsInCart={this.props.productsInCart}
         addToCart={this.props.addToCart}
