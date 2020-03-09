@@ -20,4 +20,3 @@ On visiting the checkout and submitting a order form (only possible once a user 
 
 This is an ongoing project that I will update periodically (ideas include Stripe integration, Redux refactor, or smaller features such as CSS / UI design changes, or being able to add multiple quantities or switch currencies).
 
-The site will be hosted very shortly with the link added here subsequently.
