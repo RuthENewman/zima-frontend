@@ -1,3 +1,5 @@
+/** Default styles **/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,12 +12,23 @@ body, html {
 }
 
 body {
+  background: yellow;
   background-size: cover;
 }
 
 html {
   height: 100%;
   overflow-x: hidden;
+}
+
+/** Large desktop screens **/
+@media only screen and (min-width: 1440px) {
+
+}
+
+/** Laptop screens **/
+@media only screen and (min-width: 940px) {
+
 }
 
 h1 {
@@ -37,10 +50,6 @@ h2 {
   border-radius: 4%;
 }
 
-.product-item-name {
-  font-size: 15px;
-}
-
 h3 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -60,6 +69,14 @@ a {
   text-decoration: none;
 }
 
+/** Product Item Component **/
+
+.product-item-name {
+  font-size: 15px;
+}
+
+/** Products Container Component **/
+
 .product-container {
   position: relative;
   width: 100%;
@@ -69,6 +86,8 @@ a {
   background-repeat: repeat;
   margin-top: -1em;
 }
+
+/** Products By Theme Component **/
 
 #theme-header {
   margin-top: 2em;
@@ -84,6 +103,8 @@ a {
   overflow-x: hidden;
 }
 
+/** Products List Component **/
+
 .product-list {
   display: flex;
   flex-direction: row;
@@ -94,6 +115,8 @@ a {
   align-content: center;
   margin-top: 1em;
 }
+
+/** Product Item Component **/
 
 .product-item {
   padding: 1em;
@@ -132,6 +155,8 @@ a {
   margin: 0.4em;
 }
 
+/** Products By Theme Component **/
+
 .theme_container {
   position: relative;
   width: 96%;
@@ -155,6 +180,8 @@ a {
   width: 10%;
   margin: 0.5em;
 }
+
+/** Cart Component **/
 
 .shopping-cart {
   width: 70%;
@@ -348,7 +375,6 @@ h3#shopping-cart-header {
   opacity: 1;
 }
 
-
 .text {
   color: white;
   font-size: 20px;
@@ -374,8 +400,6 @@ h3#shopping-cart-header {
   text-align: center;
   line-height: 1.5em;
 }
-
-
 
 .bg-text {
   background-color: rgb(0,0,0);
@@ -419,7 +443,7 @@ h3#shopping-cart-header {
 
 
 #img1 {
-  background-image: url("forest800px.jpg");
+  background-image: url("forestbackground800.jpg");
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -427,13 +451,6 @@ h3#shopping-cart-header {
 
 #img2 {
   background-size: cover;
-
-}
-#img3 {
-
-}
-#img4 {
-
 }
 
 .homeImage {
@@ -611,6 +628,8 @@ span.price {
   margin: 0.1em;
 }
 
+/** About component **/
+
 .aboutPage {
   background-image: url('https://s3.eu-west-2.amazonaws.com/zimaproducts/russianwintersnow.jpg');
   background-size: cover;
@@ -671,6 +690,8 @@ span.price {
   background-color: white;
 }
 
+/** Create Account component **/
+
 #create_account_header {
   margin-top: 1em;
   font-size: 20px;
@@ -729,6 +750,8 @@ span.price {
   background-color: #00FF7F;
 }
 
+/** Order History component **/
+
 #order-history {
   display: flex;
   flex-direction: column;
@@ -753,6 +776,8 @@ span.price {
   width: 100%;
   margin: 0 auto;
 }
+
+/** Credit Card Payment component **/
 
 .CC-payment {
   width: 60%;
@@ -781,10 +806,6 @@ span.price {
   line-height: 3em;
 }
 
-.payment_details input {
-
-}
-
 .payment-confirmation {
   font-size: 1em;
   padding: 1em;
@@ -798,9 +819,6 @@ span.price {
   border-radius: 5%;
   width: 100%;
 }
-
-
-/* // Side Nav Bar */
 
 .sidenav {
   height: 100%;
@@ -837,7 +855,6 @@ span.price {
   color: #f1f1f1;
 }
 
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -853,8 +870,9 @@ span.price {
   padding: 20px;
 }
 
-@media (min-width: 769px) {
+/** Default iPad / Tablet screens **/ 
 
+@media (min-width: 769px) {
   .main_content {
     width: 100%;
     margin: 0 auto;
@@ -875,6 +893,9 @@ span.price {
  }
 
 }
+
+/** Default mobile **/
+
  @media only screen and (max-device-width: 480px) {
   .main_nav a {
     font-size: 14px;
@@ -1020,3 +1041,4 @@ span.price {
 }
 
 }
+
